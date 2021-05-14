@@ -1,0 +1,47 @@
+#app {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 50px 10%;
+}
+
+h1 {
+  background-color: red;
+  font-family: "Source Code Pro";
+  font-size: 64px;
+  letter-spacing: 5px;
+  margin: 0 auto;
+  padding: 5px 20px;
+  text-align: center;
+}
+
+input {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  font-family: "Tahoma";
+  padding: 5px;
+  text-transform: capitalize;
+}
+
+.wrap {
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 3px 3px 10px 0px rgba(97, 97, 97, 0.6);
+  display: flex;
+  margin: 15px;
+  flex-direction: column;
+  font-family: "Calibri";
+  font-style: italic;
+  font-size: 18px;
+  letter-spacing: 3px;
+  padding-bottom: 20px;
+  text-transform: capitalize;
+  width: 230px;
+}
+
+.wrap:hover {
+  background: rgba(255, 0, 0, 0.5);
+  transition: all ease 0.6s;
+}
